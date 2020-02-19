@@ -15,7 +15,7 @@ install:
   - npm install
 script:
   - npm build
-  - docker build -t macaicedo/front .
+  - docker-compose build
   - docker tag macaicedo/front registry.heroku.com/$HEROKU_APP_NAME/web
 deploy:
   provider: script
