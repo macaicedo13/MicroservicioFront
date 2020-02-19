@@ -12,7 +12,7 @@ import axios from 'axios'
 import VueAxios from 'vue-axios'
 Vue.use(VueAxios, axios)
 // Agregamos la URL base de nuestra API
-axios.defaults.baseURL = 'http://localhost:3000/api/';
+axios.defaults.baseURL = 'https://backla.herokuapp.com/api/';
 
 Vue.config.productionTip = false
 
